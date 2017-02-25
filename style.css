@@ -1,14 +1,34 @@
+body {
+	font-family: 'Bilbo Swash Caps', cursive !important;
+}
+
 .title {
 	text-align: center;
+	font-size: 400%
+}
+
+.icon {
+	width: 200px;
+	margin: 0px;
 }
 
 .tab {
 	text-align: center;
 	padding: 10px;
+	font-size: 150%;
 }
 
 .tab:hover {
 	background-color: #BBBBBB;
+	color: #EEEEEE;
+}
+
+.selected {
+	color: green;
+}
+
+.main-image {
+	margin-top: -75px;
 }
 
 .background {
