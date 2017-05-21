@@ -9,10 +9,11 @@ body {
 }
 
 .icon {
-	width: 100px;
+	width: 220px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .tab {
@@ -32,6 +33,8 @@ body {
 
 .background {
 	background-color: #8C9A80;
+	/*
+	background-color: #9CAA90;*/
 }
 
 #main-image {
