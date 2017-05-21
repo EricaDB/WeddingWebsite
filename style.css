@@ -1,11 +1,14 @@
 body {
-	font-family: 'Bilbo Swash Caps', cursive !important;
+	font-family: 'Oswald', sans-serif !important;
 	color: #FFFFFF !important;
+	background: url(crossing_creek.jpg) no-repeat center center fixed;
+    background-size: cover;
+    text-shadow: 2px 2px #000000;
 }
 
 .title {
-	text-align: center;
-	font-size: 400%
+	font-size: 500%;
+	margin-left: 15px;
 }
 
 .icon {
@@ -17,26 +20,27 @@ body {
 }
 
 .tab {
-	text-align: center;
 	padding: 10px;
+	margin-left: 20px;
 	font-size: 150%;
 }
 
 .tab:hover {
-	background-color: #BBBBBB;
-	color: #EEEEEE;
+	background-color: rgba(0,0,0,0.5);
+	color: #FFFFFF;
 }
 
 .selected {
-	color: #444;
 }
 
 .background {
 	background-color: #8C9A80;
-	/*
-	background-color: #9CAA90;*/
 }
 
-#main-image {
-	padding: 0px;
+.date {
+	font-family: 'Lobster', cursive;
+	color: #6fd5f9;
+	margin-bottom: 20px;
+	margin-left: 15px;
+	text-shadow: 1px 1px #000000;
 }
