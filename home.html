@@ -3,7 +3,6 @@
 	<head>
 		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" href="bootstrap.css">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -11,26 +10,77 @@
 	<body class="background">
 		<div class="container-fluid">
 			<div class="row">
+				<h1 class="title">Erica + Sage</h1>
+			</div>
+			<div class="row">
 				<div class="col-md-5">
-					<h1 class="title">Erica + Sage</h1>
-					<h2 class="date">Sunday, September 17th, 2017</h2>
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="date">Sunday, September 17th, 2017</h2>
+						</div>
+					</div>
+				  	<div class="row">
+				    	<div class="col-md-5 tab selected" onclick="homeOnclick()">Home</div>
+				    </div>
+				    <div class="row">
+				    	<div class="col-md-5 tab" onclick="show('wedding-details')">Wedding Details</div>
+				    </div>
+				    <div class="row">
+				    	<div class="col-md-5 tab" onclick="show('relationship-timeline')">Relationship Timeline</div>
+				    </div>
+				    <div class="row">
+				    	<div class="col-md-5 tab" onclick="show('photos')">Engagement Photos</div>
+				    </div>
+				    <div class="row">
+				    	<div class="col-md-5 tab" onclick="show('contact-information')">Contact Information</div>
+				  	</div>
+				</div>
+				<div class="col-md-6 black-box" id="black-box">
+					<div class="subpage" id="wedding-details">
+						<h2>Wedding Details</h2>
+						<p>When: Sunday, September 17th, 2017</p>
+						<p>Where: Ainsworth House & Gardens <br>19130 Lot Whitcomb Dr <br>Oregon City, OR 97045</p>
+						<p>Why: Love</p>
+						<iframe class="google-maps-embedded"
+						width="100%"
+  						height="400"
+  						frameborder="0"  
+						src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD-0gDieLkarEp_Mwdq-8xcpfIsObORW3E&q=Ainsworth+House+and+Garden" allowfullscreen>
+						</iframe>
+					</div>
+					<div class="subpage" id="relationship-timeline">
+						<h2>Relationship Timeline (Coming Soon!)</h2>
+						<div id="timeline-main-bar">
+							<div class="timeline-event-bar" style="top:63px">Oct 2013: Sage first noticed Erica in Computer Science class.</div>
+							<div class="timeline-event-bar" style="top:155px">2014</div>
+							<div class="timeline-event-bar" style="top:520px">2015</div>
+							<div class="timeline-event-bar" style="top:885px">2016</div>
+							<div class="timeline-event-bar" style="top:1251px">2017</div>
+							<div class="timeline-event-bar" style="top:1524px">Oct 2017</div>
+						</div>
+					</div>
+					<div class="subpage" id="photos">
+						<h2>Engagement Photos</h2>
+						<a href="http://albums.photographybyajay.com/ENGAGEMENTS/Erica-Sage-ENGAGEMENT-SESSION">View Full Gallery</a>
+						<!-- <img class="photo" src=""/>
+						<img class="photo" src=""/>
+						<a href="http://albums.photographybyajay.com/ENGAGEMENTS/Erica-Sage-ENGAGEMENT-SESSION">View Full Gallery</a> -->
+					</div>
+					<div class="subpage" id="contact-information">
+						<h2>Contact Information</h2>
+						<h3>Erica's contact information</h3>
+						<p>Email: ericadj99@gmail.com</p>
+						<p>Phone: (503) 530-0015</p>
+						<p>Address: 15242 SW Millikan Way Apt 515, Beaverton, OR, 97003</p>
+
+						<h3>Sage's contact information</h3>
+						<p>Email: sagetberg@gmail.com</p>
+						<p>Phone: (541) 731-1434</p>
+						<p>Address: 15242 SW Millikan Way Apt 515, Beaverton, OR, 97003</p>
+					</div>
 				</div>
 			</div>
-		  	<div class="row">
-		    	<div class="col-md-2 tab selected" onclick="location.href='home.html'">Home</div>
-		    </div>
-		    <div class="row">
-		    	<div class="col-md-2 tab" onclick="location.href='wedding-details.html'">Wedding Details</div>
-		    </div>
-		    <div class="row">
-		    	<div class="col-md-2 tab" onclick="location.href='relationship-timeline.html'">Relationship Timeline</div>
-		    </div>
-		    <div class="row">
-		    	<div class="col-md-2 tab" onclick="location.href='photos.html'">Engagement Photos</div>
-		    </div>
-		    <div class="row">
-		    	<div class="col-md-2 tab" onclick="location.href='contact-information.html'">Contact Information</div>
-		  	</div>
 		</div>
 	</body>
+	<script src="app.js"></script>
 </html>

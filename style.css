@@ -8,7 +8,7 @@ body {
 
 .title {
 	font-size: 500%;
-	margin-left: 15px;
+	margin-left: 30px;
 }
 
 .icon {
@@ -26,11 +26,8 @@ body {
 }
 
 .tab:hover {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.6);
 	color: #FFFFFF;
-}
-
-.selected {
 }
 
 .background {
@@ -43,4 +40,47 @@ body {
 	margin-bottom: 20px;
 	margin-left: 15px;
 	text-shadow: 1px 1px #000000;
+}
+
+.black-box {
+	background-color: rgba(0,0,0,0.7);
+	display: none;
+	padding-bottom: 20px;
+}
+
+.subpage h2 {
+	text-align: center;
+}
+
+.google-maps-embedded {
+  	border: 0;
+}
+
+.photo {
+	padding-bottom: 7px;
+	padding-top: 8px;
+	width: 100%;
+}
+
+#timeline-main-bar {
+	margin: auto;
+	background-color: #FFF;
+	height: 1461px;
+	width: 5px;
+}
+
+.timeline-event-bar {
+	margin: auto;
+	background-color: #FFF;
+	/*width: 15px;*/
+	height: 2px;
+	padding-left: 10px;
+	position: absolute;
+}
+
+.timeline-label {
+	margin: auto;
+	left: 200px;
+	background-color: #000;
+	position: absolute;
 }
