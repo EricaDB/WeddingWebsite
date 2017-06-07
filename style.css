@@ -48,6 +48,10 @@ body {
 	padding-bottom: 20px;
 }
 
+.subpage {
+	font-size: 125%;
+}
+
 .subpage h2 {
 	text-align: center;
 }
