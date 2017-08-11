@@ -9,7 +9,7 @@ function show(id) {
 }
 
 function hideAll(visibleId) {
-	var ids = ["wedding-details", "photos", "relationship-timeline", "contact-information"];
+	var ids = ["wedding-details", "photos", "relationship-timeline", "contact-information", "gifts"];
 	for (var i = 0; i < ids.length; i++) {
 		if (ids[i] !== visibleId) {
 			document.getElementById(ids[i]).style.display = 'none';

@@ -76,7 +76,6 @@ body {
 .timeline-event-bar {
 	margin: auto;
 	background-color: #FFF;
-	/*width: 15px;*/
 	height: 2px;
 	padding-left: 10px;
 	position: absolute;
@@ -87,4 +86,9 @@ body {
 	left: 200px;
 	background-color: #000;
 	position: absolute;
+}
+
+#registry {
+	font-size: 26px;
+	color: #6fd5f9;
 }
